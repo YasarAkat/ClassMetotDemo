@@ -43,9 +43,13 @@ namespace ClassMetotDemo
 
             musteriİslemleri.Sil(musteri1);
             musteriİslemleri.Sil(musteri2);
-            
+            musteriİslemleri.Sil(musteri3);
 
-            
+
+
+
+            musteriİslemleri.Listele(musteri1);
+            musteriİslemleri.Listele(musteri2);
             musteriİslemleri.Listele(musteri3);
 
             Console.WriteLine("Hello World!");
