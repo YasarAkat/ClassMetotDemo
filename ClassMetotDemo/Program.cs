@@ -46,7 +46,7 @@ namespace ClassMetotDemo
             
 
             
-            musteriİslemleri.Listele(musteri3);
+            musteriİslemleri.Listele(musteri3); 
 
             Console.WriteLine("Hello World!");
         }
