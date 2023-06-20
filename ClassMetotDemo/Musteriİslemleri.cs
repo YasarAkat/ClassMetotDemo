@@ -15,12 +15,12 @@ namespace ClassMetotDemo
 
         public void Sil(Musteri musteri)
         {
-            Console.WriteLine("Silinen Müşteri : " + musteri.Id);
+            Console.WriteLine("Silinen Müşteri : " + musteri.Adi + " " + musteri.Soyadi);
         }
 
         public void Listele(Musteri musteri)
         {
-            Console.WriteLine("Müşteriler Listelendi : " + musteri.Id + " " + musteri.Adi + " " + musteri.Meslek);
+            Console.WriteLine("Müşteriler Listelendi : " + musteri.Id + " " + musteri.Adi + " " + musteri.Soyadi);
         } 
     }
 }
